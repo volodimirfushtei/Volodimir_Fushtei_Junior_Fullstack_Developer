@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper-list {
+  display: block;
+  flex-direction: column;
+}
+.name {
+}
+.name-pro {
+}
+.name-list {
+}
+.name-exp {
+}
+.wrapper-aside {
+  display: block;
+  flex-direction: column;
+}
+.sidebar {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-left: 10px;
+}
