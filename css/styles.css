@@ -1,18 +1,28 @@
+@import url('./reset.css');
+body {
+  background: rgb(240, 240, 205);
+  padding: 20px;
+}
+
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 .wrapper-list {
   display: block;
   flex-direction: column;
 }
 .name {
+  color: black;
 }
 .name-pro {
+  color: black;
 }
 .name-list {
+  color: black;
 }
 .name-exp {
+  color: black;
 }
 .wrapper-aside {
   display: block;
@@ -20,6 +30,19 @@
 }
 .sidebar {
   background-color: antiquewhite;
-  padding: 10px;
+  padding: 40px;
   margin-left: 10px;
+  box-sizing: border-box;
+  width: 360px;
+}
+.container-sidebar-content {
+  padding: 20px 20px;
+}
+.wrapper-tskills-list {
+  display: block;
+  flex-direction: column;
+}
+.wrapper-list {
+  padding: 20px;
+  width: 600px;
 }
