@@ -87,4 +87,5 @@ p {
 .work-list {
   display: block;
   flex-direction: column;
+  padding-left: 20px;
 }
