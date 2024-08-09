@@ -7,10 +7,13 @@ body {
 .container {
   display: flex;
   flex-direction: row-reverse;
+  background-color: rgb(182, 216, 244);
+  width: 800px;
 }
 .wrapper-list {
   display: block;
   flex-direction: column;
+  padding: 40px;
 }
 .name {
   color: black;
@@ -29,7 +32,7 @@ body {
   flex-direction: column;
 }
 .sidebar {
-  background-color: antiquewhite;
+  background-color: rgb(243, 241, 237);
   padding: 40px;
   margin-left: 10px;
   box-sizing: border-box;
