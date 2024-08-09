@@ -4,7 +4,7 @@ body {
   color: #434455;
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 ul {
   list-style-type: none;
