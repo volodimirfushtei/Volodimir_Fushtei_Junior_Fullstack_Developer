@@ -89,3 +89,7 @@ p {
   flex-direction: column;
   padding-left: 20px;
 }
+.work-list-item {
+  font-weight: 400;
+  font-size: 14px;
+}
