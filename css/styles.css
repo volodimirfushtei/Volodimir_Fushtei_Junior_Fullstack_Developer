@@ -14,20 +14,18 @@ body {
 .wrapper-list {
   display: block;
   flex-direction: column;
-  padding: 40px;
+  padding: 20px;
 }
-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 .name {
   color: black;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 .name-pro {
   color: black;
@@ -35,9 +33,14 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-bottom: 10px;
 }
 .name-list {
   color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .name-exp {
   color: black;
@@ -52,13 +55,21 @@ p {
 }
 .sidebar {
   background-color: rgb(249, 246, 239);
-  padding: 40px;
+  padding: 10px;
   margin-left: 10px;
   box-sizing: border-box;
   width: 360px;
 }
 .container-sidebar-content {
   padding: 20px 20px;
+}
+.title {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
 }
 .wrapper-tskills-list {
   display: flex;
@@ -67,7 +78,7 @@ p {
   gap: 4px;
 }
 .wrapper-list {
-  padding: 20px;
+  padding: 8px;
   width: 600px;
 }
 .soft-list {
@@ -75,11 +86,12 @@ p {
   flex-direction: column;
   list-style-type: circle;
   gap: 4px;
+  margin: 0;
 }
-.sskills-title {
-  margin-bottom: 8px;
+.skills-title {
   color: black;
-  font-weight: 500;
+  font-weight: 700;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -92,4 +104,27 @@ p {
 .work-list-item {
   font-weight: 400;
   font-size: 14px;
+}
+.title-lang {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+.lang-text {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  margin-left: 4px;
+}
+.educ {
+  display: block;
+  flex-direction: column;
+
+  margin-bottom: 10px;
 }
