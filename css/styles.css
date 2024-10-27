@@ -14,16 +14,17 @@ body {
 .wrapper-list {
   display: block;
   flex-direction: column;
-  padding: 20px;
+  padding: 8px;
+  width: 680px;
 }
 
 .name {
   color: black;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   display: flex;
   align-items: center;
 }
@@ -33,21 +34,23 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 .name-list {
   color: black;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .name-exp {
   color: black;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  padding-left: 10px;
 }
 .wrapper-aside {
   display: block;
@@ -58,7 +61,7 @@ body {
   padding: 10px;
   margin-left: 10px;
   box-sizing: border-box;
-  width: 360px;
+  width: 250px;
 }
 .container-sidebar-content {
   padding: 20px 20px;
@@ -77,10 +80,7 @@ body {
   list-style-type: circle;
   gap: 4px;
 }
-.wrapper-list {
-  padding: 8px;
-  width: 600px;
-}
+
 .soft-list {
   display: flex;
   flex-direction: column;
@@ -104,6 +104,8 @@ body {
 .work-list-item {
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .title-lang {
   color: black;
@@ -123,8 +125,136 @@ body {
   margin-left: 4px;
 }
 .educ {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  padding-left: 10px;
+}
+.wrapper-exp {
   display: block;
   flex-direction: column;
+  padding-left: 10px;
+}
+.exper-title {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+.exper-name {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.exper-org {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.exper-item {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.exper-list {
+  display: flex;
+  flex-direction: column;
 
-  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.title-summary {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  padding-left: 10px;
+}
+.exper-text {
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+.edu-uni {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+.edu-time {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 10px;
+}
+.edu-spec {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 10px;
+}
+.work-list-link {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .wrapper-list {
+    width: 100%;
+  }
+}
+.wrapper-list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.wrapper-list li {
+  position: relative;
+  padding-left: 10px;
+}
+
+.wrapper-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
 }

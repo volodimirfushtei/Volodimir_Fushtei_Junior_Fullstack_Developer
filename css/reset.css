@@ -46,3 +46,25 @@ div {
   display: block;
   unicode-bidi: isolate;
 }
+:root {
+  --primary-color: black;
+  --background-color: rgb(242, 242, 240);
+  --sidebar-color: rgb(249, 246, 239);
+  --content-color: rgb(182, 216, 244);
+}
+
+body {
+  background: var(--background-color);
+}
+
+.sidebar {
+  background-color: var(--sidebar-color);
+
+  flex-basis: 200px;
+}
+
+.container {
+  background-color: var(--content-color);
+  padding: 10px;
+  height: auto;
+}
