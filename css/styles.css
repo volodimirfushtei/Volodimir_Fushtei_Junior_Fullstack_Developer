@@ -1,31 +1,32 @@
-@page {
-  size: A4; /* Встановлюємо розмір A4 */
-  margin: 20mm;
-  /* Поля */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  max-width: 1100px; /* Заповнює ширину сторінки */
-  height: auto; /* Автоматична висота */
+  max-width: 1200px;
+  margin: 20px auto;
   background: #fff;
+
   border-radius: 8px;
   overflow: hidden;
-  margin: 0 auto;
 }
 
 .wrapper-list {
-  padding: 10px; /* Відступи */
+  padding: 20px;
   flex: 3;
   background-color: #faf9f9;
 }
 
 .sidebar {
-  padding: 10px; /* Зменшено для компактності */
+  padding: 20px;
   flex: 1;
   background: #efeeee;
-  width: 800px; /* Мінімальна ширина бічної панелі */
 }
 
 h1,
@@ -34,16 +35,16 @@ h3,
 h4,
 h5 {
   color: #333;
-  font-weight: bold;
+  padding: 0;
 }
 
 .name {
-  font-size: 2.5em; /* Розмір шрифту для імені */
-  margin-bottom: 5px; /* Відступи */
+  font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
 .name-pro {
-  font-size: 1.5em; /* Розмір шрифту для професії */
+  font-size: 1.5em;
   color: #666;
 }
 
@@ -52,15 +53,15 @@ h5 {
 .exper-title,
 .educ,
 .skills-title {
-  border-bottom: 2px solid #007bff; /* Лінія */
-  padding-bottom: 5px; /* Відступи */
-  margin-bottom: 10px; /* Відступи */
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .name-list,
 .exper-text,
 .lang-text {
-  margin-bottom: 10px; /* Відступи */
+  margin-bottom: 10px;
 }
 
 .wrapper-project,
@@ -68,16 +69,16 @@ h5 {
 .wrapper-tskills,
 .skills-soft,
 .wrapper-lang {
-  margin-bottom: 10px; /* Відступи */
+  margin-bottom: 20px;
 }
 
 .work-list {
-  list-style-type: none; /* Без маркерів */
+  list-style-type: none;
   padding: 0;
 }
 
 .work-list-item {
-  margin-bottom: 10px; /* Відступи */
+  margin-bottom: 10px;
 }
 
 .work-list-link,
@@ -92,51 +93,46 @@ h5 {
 }
 
 .exper-list {
-  padding-left: 20px; /* Відступи */
+  padding-left: 20px;
 }
 
 .contacts {
-  margin-bottom: 10px; /* Відступи */
+  margin-bottom: 10px;
 }
 
 .skills-title {
-  margin-bottom: 15px; /* Відступи */
+  margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column; /* Стовпчиковий вигляд на малих екранах */
+    flex-direction: column;
   }
   .sidebar {
     border-left: none;
     border-top: 1px solid #ccc;
   }
 }
-
 @media (max-width: 375px) {
   .name {
-    font-size: 1.8em; /* Зменшити для мобільних */
+    font-size: 1.8em;
   }
   .name-pro {
-    font-size: 1.3em; /* Зменшити для мобільних */
+    font-size: 1.3em;
   }
-  .exper-text,
+  .exper-text {
+    font-size: 1.2em;
+  }
   .lang-text {
-    font-size: 1.2em; /* Зменшити для мобільних */
+    font-size: 1.2em;
   }
 }
-
 img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
 }
-
 a {
   color: #007bff;
   text-decoration: none;
-}
-
-ul {
-  list-style-type: none; /* Без маркерів */
 }
