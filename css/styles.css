@@ -7,7 +7,7 @@
 .container {
   display: flex;
   flex-direction: row;
-  max-width: 1200px; /* Заповнює ширину сторінки */
+  max-width: 100%; /* Заповнює ширину сторінки */
   height: auto; /* Автоматична висота */
   background: #fff;
   border-radius: 8px;
