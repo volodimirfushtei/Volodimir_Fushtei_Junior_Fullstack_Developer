@@ -1,6 +1,7 @@
 @page {
   size: A4; /* Встановлюємо розмір A4 */
-  margin: 20mm; /* Поля */
+  margin: 20mm;
+  /* Поля */
 }
 
 .container {
@@ -11,6 +12,7 @@
   background: #fff;
   border-radius: 8px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .wrapper-list {
