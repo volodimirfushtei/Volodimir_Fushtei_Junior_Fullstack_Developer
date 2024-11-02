@@ -1,22 +1,26 @@
+@page {
+  size: A4; /* Встановлюємо розмір сторінки A4 */
+  margin: 20mm; /* Встановлюємо поля */
+}
+
 .container {
   display: flex;
   flex-direction: row;
-  max-width: 1200px;
-  margin: 15px auto;
+  max-width: 100%; /* Заповнює ширину сторінки */
+  height: auto; /* Автоматична висота */
   background: #fff;
-
   border-radius: 8px;
   overflow: hidden;
 }
 
 .wrapper-list {
-  padding: 10px;
+  padding: 10px; /* Відступи */
   flex: 3;
   background-color: #faf9f9;
 }
 
 .sidebar {
-  padding: 15px;
+  padding: 15px; /* Відступи */
   flex: 1;
   background: #efeeee;
 }
@@ -27,16 +31,16 @@ h3,
 h4,
 h5 {
   color: #333;
-  padding: 0;
+  font-weight: bold;
 }
 
 .name {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+  font-size: 2.5em; /* Розмір шрифту для імені */
+  margin-bottom: 5px; /* Відступи */
 }
 
 .name-pro {
-  font-size: 1.5em;
+  font-size: 1.5em; /* Розмір шрифту для професії */
   color: #666;
 }
 
@@ -45,15 +49,15 @@ h5 {
 .exper-title,
 .educ,
 .skills-title {
-  border-bottom: 2px solid #007bff;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff; /* Лінія */
+  padding-bottom: 5px; /* Відступи */
+  margin-bottom: 10px; /* Відступи */
 }
 
 .name-list,
 .exper-text,
 .lang-text {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Відступи */
 }
 
 .wrapper-project,
@@ -61,16 +65,16 @@ h5 {
 .wrapper-tskills,
 .skills-soft,
 .wrapper-lang {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Відступи */
 }
 
 .work-list {
-  list-style-type: none;
+  list-style-type: none; /* Без маркерів */
   padding: 0;
 }
 
 .work-list-item {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Відступи */
 }
 
 .work-list-link,
@@ -85,46 +89,51 @@ h5 {
 }
 
 .exper-list {
-  padding-left: 20px;
+  padding-left: 20px; /* Відступи */
 }
 
 .contacts {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Відступи */
 }
 
 .skills-title {
-  margin-bottom: 15px;
+  margin-bottom: 15px; /* Відступи */
 }
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
+    flex-direction: column; /* Стовпчиковий вигляд на малих екранах */
   }
   .sidebar {
     border-left: none;
     border-top: 1px solid #ccc;
   }
 }
+
 @media (max-width: 375px) {
   .name {
-    font-size: 1.8em;
+    font-size: 1.8em; /* Зменшити для мобільних */
   }
   .name-pro {
-    font-size: 1.3em;
+    font-size: 1.3em; /* Зменшити для мобільних */
   }
-  .exper-text {
-    font-size: 1.2em;
-  }
+  .exper-text,
   .lang-text {
-    font-size: 1.2em;
+    font-size: 1.2em; /* Зменшити для мобільних */
   }
 }
+
 img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
 }
+
 a {
   color: #007bff;
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none; /* Без маркерів */
 }
