@@ -1,12 +1,12 @@
 @page {
-  size: A4; /* Встановлюємо розмір сторінки A4 */
-  margin: 20mm; /* Встановлюємо поля */
+  size: A4; /* Встановлюємо розмір A4 */
+  margin: 20mm; /* Поля */
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  max-width: 100%; /* Заповнює ширину сторінки */
+  max-width: 1200px; /* Заповнює ширину сторінки */
   height: auto; /* Автоматична висота */
   background: #fff;
   border-radius: 8px;
@@ -20,9 +20,10 @@
 }
 
 .sidebar {
-  padding: 15px; /* Відступи */
+  padding: 10px; /* Зменшено для компактності */
   flex: 1;
   background: #efeeee;
+  min-width: 200px; /* Мінімальна ширина бічної панелі */
 }
 
 h1,
