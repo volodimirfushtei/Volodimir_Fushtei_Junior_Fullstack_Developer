@@ -1,4 +1,48 @@
 body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+address {
+  font-style: normal;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+input {
+  font-family: inherit;
+  outline: transparent;
+}
+
+label {
+  cursor: default;
+}
+
+body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -10,7 +54,7 @@ body {
   display: flex;
   flex-direction: row;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 15px auto;
   background: #fff;
 
   border-radius: 8px;
@@ -18,7 +62,7 @@ body {
 }
 
 .wrapper-list {
-  padding: 20px;
+  padding: 10px;
   flex: 3;
   background-color: #faf9f9;
 }
@@ -69,7 +113,7 @@ h5 {
 .wrapper-tskills,
 .skills-soft,
 .wrapper-lang {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .work-list {
@@ -131,4 +175,8 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
 }
