@@ -1,6 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
+  font-size: medium;
   margin: 0;
   padding: 0;
   background-color: #fff;
@@ -20,13 +21,11 @@ body {
 .wrapper-list {
   padding: 20px;
   flex: 3;
-  background-color: #faf9f9;
 }
 
 .sidebar {
   padding: 20px;
   flex: 1;
-  background: #efeeee;
 }
 
 h1,
